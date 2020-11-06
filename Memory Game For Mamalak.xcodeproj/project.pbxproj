@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD075910246C7450001AA23C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07590F246C7450001AA23C /* AppDelegate.swift */; };
+		FD075912246C7450001AA23C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD075911246C7450001AA23C /* SceneDelegate.swift */; };
+		FD075914246C7450001AA23C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD075913246C7450001AA23C /* ViewController.swift */; };
+		FD075917246C7450001AA23C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD075915246C7450001AA23C /* Main.storyboard */; };
+		FD075919246C7452001AA23C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD075918246C7452001AA23C /* Assets.xcassets */; };
+		FD07591C246C7452001AA23C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD07591A246C7452001AA23C /* LaunchScreen.storyboard */; };
+		FD075931246C910B001AA23C /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD075930246C910B001AA23C /* CardCell.swift */; };
+		FD075933246C977D001AA23C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD075932246C977D001AA23C /* Card.swift */; };
+		FD075944246DBC2B001AA23C /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07593B246DBC2A001AA23C /* monkey.png */; };
+		FD075945246DBC2B001AA23C /* carrot.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07593C246DBC2A001AA23C /* carrot.png */; };
+		FD075946246DBC2B001AA23C /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07593D246DBC2A001AA23C /* banana.png */; };
+		FD075947246DBC2B001AA23C /* monkey+banana.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07593E246DBC2A001AA23C /* monkey+banana.png */; };
+		FD075948246DBC2B001AA23C /* honey.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07593F246DBC2A001AA23C /* honey.png */; };
+		FD075949246DBC2B001AA23C /* rabbit+carrot.png in Resources */ = {isa = PBXBuildFile; fileRef = FD075940246DBC2A001AA23C /* rabbit+carrot.png */; };
+		FD07594A246DBC2B001AA23C /* rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = FD075941246DBC2A001AA23C /* rabbit.png */; };
+		FD07594B246DBC2B001AA23C /* bear.png in Resources */ = {isa = PBXBuildFile; fileRef = FD075942246DBC2A001AA23C /* bear.png */; };
+		FD07594C246DBC2B001AA23C /* bear+honey.png in Resources */ = {isa = PBXBuildFile; fileRef = FD075943246DBC2A001AA23C /* bear+honey.png */; };
+		FD075950246F11C0001AA23C /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07594D246F11C0001AA23C /* cat.png */; };
+		FD075951246F11C0001AA23C /* cat+ball.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07594E246F11C0001AA23C /* cat+ball.png */; };
+		FD075952246F11C0001AA23C /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = FD07594F246F11C0001AA23C /* ball.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD07590C246C7450001AA23C /* Memory Game For Mamalak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memory Game For Mamalak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD07590F246C7450001AA23C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD075911246C7450001AA23C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD075913246C7450001AA23C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD075916246C7450001AA23C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD075918246C7452001AA23C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD07591B246C7452001AA23C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD07591D246C7452001AA23C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD075930246C910B001AA23C /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		FD075932246C977D001AA23C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		FD07593B246DBC2A001AA23C /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
+		FD07593C246DBC2A001AA23C /* carrot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carrot.png; sourceTree = "<group>"; };
+		FD07593D246DBC2A001AA23C /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banana.png; sourceTree = "<group>"; };
+		FD07593E246DBC2A001AA23C /* monkey+banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monkey+banana.png"; sourceTree = "<group>"; };
+		FD07593F246DBC2A001AA23C /* honey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = honey.png; sourceTree = "<group>"; };
+		FD075940246DBC2A001AA23C /* rabbit+carrot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rabbit+carrot.png"; sourceTree = "<group>"; };
+		FD075941246DBC2A001AA23C /* rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rabbit.png; sourceTree = "<group>"; };
+		FD075942246DBC2A001AA23C /* bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bear.png; sourceTree = "<group>"; };
+		FD075943246DBC2A001AA23C /* bear+honey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bear+honey.png"; sourceTree = "<group>"; };
+		FD07594D246F11C0001AA23C /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		FD07594E246F11C0001AA23C /* cat+ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat+ball.png"; sourceTree = "<group>"; };
+		FD07594F246F11C0001AA23C /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD075909246C7450001AA23C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD075903246C7450001AA23C = {
+			isa = PBXGroup;
+			children = (
+				FD07590E246C7450001AA23C /* Memory Game For Mamalak */,
+				FD07590D246C7450001AA23C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD07590D246C7450001AA23C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD07590C246C7450001AA23C /* Memory Game For Mamalak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD07590E246C7450001AA23C /* Memory Game For Mamalak */ = {
+			isa = PBXGroup;
+			children = (
+				FD07590F246C7450001AA23C /* AppDelegate.swift */,
+				FD075911246C7450001AA23C /* SceneDelegate.swift */,
+				FD075913246C7450001AA23C /* ViewController.swift */,
+				FD075930246C910B001AA23C /* CardCell.swift */,
+				FD075932246C977D001AA23C /* Card.swift */,
+				FD075915246C7450001AA23C /* Main.storyboard */,
+				FD075918246C7452001AA23C /* Assets.xcassets */,
+				FD07591A246C7452001AA23C /* LaunchScreen.storyboard */,
+				FD07591D246C7452001AA23C /* Info.plist */,
+				FD07592F246C79CA001AA23C /* cards */,
+			);
+			path = "Memory Game For Mamalak";
+			sourceTree = "<group>";
+		};
+		FD07592F246C79CA001AA23C /* cards */ = {
+			isa = PBXGroup;
+			children = (
+				FD07593D246DBC2A001AA23C /* banana.png */,
+				FD075942246DBC2A001AA23C /* bear.png */,
+				FD075943246DBC2A001AA23C /* bear+honey.png */,
+				FD07593C246DBC2A001AA23C /* carrot.png */,
+				FD07593F246DBC2A001AA23C /* honey.png */,
+				FD07593B246DBC2A001AA23C /* monkey.png */,
+				FD07593E246DBC2A001AA23C /* monkey+banana.png */,
+				FD075941246DBC2A001AA23C /* rabbit.png */,
+				FD07594F246F11C0001AA23C /* ball.png */,
+				FD07594D246F11C0001AA23C /* cat.png */,
+				FD07594E246F11C0001AA23C /* cat+ball.png */,
+				FD075940246DBC2A001AA23C /* rabbit+carrot.png */,
+			);
+			path = cards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD07590B246C7450001AA23C /* Memory Game For Mamalak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD075920246C7452001AA23C /* Build configuration list for PBXNativeTarget "Memory Game For Mamalak" */;
+			buildPhases = (
+				FD075908246C7450001AA23C /* Sources */,
+				FD075909246C7450001AA23C /* Frameworks */,
+				FD07590A246C7450001AA23C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Memory Game For Mamalak";
+			productName = "Memory Game For Mamalak";
+			productReference = FD07590C246C7450001AA23C /* Memory Game For Mamalak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD075904246C7450001AA23C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Edil Ashimov";
+				TargetAttributes = {
+					FD07590B246C7450001AA23C = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FD075907246C7450001AA23C /* Build configuration list for PBXProject "Memory Game For Mamalak" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD075903246C7450001AA23C;
+			productRefGroup = FD07590D246C7450001AA23C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD07590B246C7450001AA23C /* Memory Game For Mamalak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD07590A246C7450001AA23C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD075950246F11C0001AA23C /* cat.png in Resources */,
+				FD075944246DBC2B001AA23C /* monkey.png in Resources */,
+				FD075949246DBC2B001AA23C /* rabbit+carrot.png in Resources */,
+				FD07591C246C7452001AA23C /* LaunchScreen.storyboard in Resources */,
+				FD075946246DBC2B001AA23C /* banana.png in Resources */,
+				FD075919246C7452001AA23C /* Assets.xcassets in Resources */,
+				FD07594C246DBC2B001AA23C /* bear+honey.png in Resources */,
+				FD07594A246DBC2B001AA23C /* rabbit.png in Resources */,
+				FD075945246DBC2B001AA23C /* carrot.png in Resources */,
+				FD075917246C7450001AA23C /* Main.storyboard in Resources */,
+				FD07594B246DBC2B001AA23C /* bear.png in Resources */,
+				FD075952246F11C0001AA23C /* ball.png in Resources */,
+				FD075951246F11C0001AA23C /* cat+ball.png in Resources */,
+				FD075947246DBC2B001AA23C /* monkey+banana.png in Resources */,
+				FD075948246DBC2B001AA23C /* honey.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD075908246C7450001AA23C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD075914246C7450001AA23C /* ViewController.swift in Sources */,
+				FD075910246C7450001AA23C /* AppDelegate.swift in Sources */,
+				FD075933246C977D001AA23C /* Card.swift in Sources */,
+				FD075912246C7450001AA23C /* SceneDelegate.swift in Sources */,
+				FD075931246C910B001AA23C /* CardCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD075915246C7450001AA23C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD075916246C7450001AA23C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD07591A246C7452001AA23C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD07591B246C7452001AA23C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD07591E246C7452001AA23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD07591F246C7452001AA23C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD075921246C7452001AA23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LX84G6PTJX;
+				INFOPLIST_FILE = "Memory Game For Mamalak/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eddyash.Memory-Game-For-Mamalak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD075922246C7452001AA23C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LX84G6PTJX;
+				INFOPLIST_FILE = "Memory Game For Mamalak/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eddyash.Memory-Game-For-Mamalak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD075907246C7450001AA23C /* Build configuration list for PBXProject "Memory Game For Mamalak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD07591E246C7452001AA23C /* Debug */,
+				FD07591F246C7452001AA23C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD075920246C7452001AA23C /* Build configuration list for PBXNativeTarget "Memory Game For Mamalak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD075921246C7452001AA23C /* Debug */,
+				FD075922246C7452001AA23C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD075904246C7450001AA23C /* Project object */;
+}
