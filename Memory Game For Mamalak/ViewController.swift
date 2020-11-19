@@ -26,7 +26,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     var score = 0 {
         didSet {
-            navigationItem.rightBarButtonItems![0].title = "Score: \(score)"
+            navigationItem.rightBarButtonItems![0].title = "Score is: \(score)"
         }
     }
     
@@ -37,7 +37,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         imageView.contentMode = .scaleAspectFit
         navigationItem.titleView = imageView
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Score: \(score)", style: .plain, target: self, action: nil)
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Score is: \(score)", style: .plain, target: self, action: nil)
         navigationItem.rightBarButtonItem?.setTitleTextAttributes([NSAttributedString.Key.font : UIFont(name: "Chalkduster", size: 20)!], for: .normal)
         let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
         layout.sectionInset = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
