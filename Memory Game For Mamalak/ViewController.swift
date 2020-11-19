@@ -151,7 +151,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         let card = allCards?[indexPath.row]
         if card!.isHidden {
             allCards?[indexPath.row].isHidden.toggle()
-            UIView.transition(with: cell, duration: 0.5, options: [.transitionFlipFromRight], animations: {
+            UIView.transition(with: cell, duration: 0.6, options: [.transitionFlipFromRight], animations: {
                 collectionView.reloadItems(at: [indexPath])
                 cell.contentView.isHidden = true
             }) { (done) in
@@ -159,7 +159,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             }
         } else {
             allCards?[indexPath.row].isHidden.toggle()
-            UIView.transition(with: cell, duration: 0.5, options: [.transitionFlipFromRight], animations: {
+            UIView.transition(with: cell, duration: 0.6, options: [.transitionFlipFromRight], animations: {
                 collectionView.reloadItems(at: [indexPath])
                 cell.contentView.isHidden = true
             }) { (done) in
@@ -211,7 +211,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         let width = view.frame.height*0.6/4
-        return CGSize(width: width, height: width*1.3)
+        return CGSize(width: width, height: width*1.4)
         
     }
     
@@ -220,7 +220,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         let cell = collectionView.cellForItem(at: cellOne)
         let cell2 = collectionView.cellForItem(at: cellTwo)
         
-        UIView.animate(withDuration: 0.5, animations: {
+        UIView.animate(withDuration: 0.6, animations: {
             
             if isMatch {
                 cell?.contentView.backgroundColor = .green
